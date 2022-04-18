@@ -139,7 +139,7 @@ class YYDialog {
               visible: withDivider,
               child: VerticalDivider(),
             ),
-            FlatButton(
+            TextButton(
               onPressed: () {
                 if (onTap2 != null) onTap2();
                 if (isClickAutoDismiss) {
